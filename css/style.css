@@ -133,3 +133,26 @@
     width: calc(100% / 4);
 }
 
+.bottomfooter{
+    margin-top: 1px;
+}
+
+.lightbluefooter{
+    background-color: lightskyblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-button{
+    display: flex;
+    justify-content: center;
+    background-color: lightsalmon;
+    border: black dashed 1px;
+    width: 5%;
+    height: 20px;
+
+}
