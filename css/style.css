@@ -57,7 +57,10 @@
     background-color: rosybrown;
     margin: 20px auto;
     width: 40%;
+    border: black dashed 1px;
 }
+
+/* MAIN-PRIMA SEZIONE */
 
 .white {
     background-color: white;
@@ -67,9 +70,9 @@
 .lightblue,
 .lightcoral{
     display: flex;
-    min-height: 200px;
+    min-height: 300px;
     margin: 20px 0;
-    
+    border: black dashed 1px;
 }
 
 .lightblue{
@@ -80,5 +83,53 @@
 .lightcoral{
     background-color: lightcoral;
     width: 65%;
+}
+
+/* MAIN-SECONDA SEZIONE */
+
+.grey {
+    background-color: grey;
+    justify-content: center;
+}
+
+/* MAIN-QUARTA SEZIONE */
+
+.green{
+    background-color: green;
+    width: 100%;
+    height: 700px;
+    margin: 20px 0;
+    border: black dashed 1px;
+}
+
+/* FOOTER */
+
+.darkgrey{
+    background-color: darkgrey;
+    justify-content: center;
+}
+
+.pink{
+    background-color: pink;
+    width: 20%;
+    height: 700px;
+    margin: 20px 0;
+    border: black dashed 1px;
+}
+
+.lightskyblue{
+    background-color: lightskyblue;
+    width: 80%;
+    height: 700px;
+    margin: 20px 0;
+    border: black dashed 1px;
+    display: flex;
+}
+
+.column{
+    border: white dashed 1px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4);
 }
 
