@@ -12,7 +12,7 @@
     HEADER
 */
 
-.debug, .header-container {
+.debug .header-container {
     background-color: aqua;
     display: flex;
 }
@@ -38,4 +38,16 @@ header > div > div {
 .orangebar > div:nth-child(2){
     width: 50%;
     justify-content: center;
+}
+
+.debug .bottom-container{
+    background-color: blue;
+    display: flex;
+    min-height: 400px;
+}
+
+.bottom-container > div {
+    background-color: rosybrown;
+    margin: 20px auto;
+    width: 40%;
 }
