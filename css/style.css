@@ -9,11 +9,33 @@
 }
 
 /* 
-    GENERAL
+    HEADER
 */
 
-.contenitore{
-    max-width: 1200px;
-    margin: 0 auto;
+.debug, .header-container {
+    background-color: aqua;
+    display: flex;
+}
 
+.orangebar{
+    background-color: orange;
+    margin: 10px auto;
+    display: flex;
+    width: 50%;
+    
+}
+
+header > div > div {
+    display: flex;
+    border: black dashed 1px;
+}
+
+.orangebar > div:nth-child(1),
+.orangebar > div:nth-child(3){
+    width: 25%;
+}
+
+.orangebar > div:nth-child(2){
+    width: 50%;
+    justify-content: center;
 }
